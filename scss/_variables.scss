@@ -1,0 +1,27 @@
+$rt-namespace: 'Toastify';
+$rt-mobile: 'only screen and (max-width : 480px)' !default;
+
+:root {
+  --toastify-color-light: #fff;
+  --toastify-color-dark: #121212;
+  --toastify-color-transparent: rgba(255, 255, 255, 0.7);
+
+  --toastify-color-dark-overlay-default: rgba(46, 246, 204, 0.3);
+  --toastify-color-dark-overlay-info: var(--toastify-color-dark-overlay-default);
+  --toastify-color-dark-overlay-success: var(--toastify-color-dark-overlay-default);
+  --toastify-color-dark-overlay-warning: rgba(255, 220, 100, 0.3);
+  --toastify-color-dark-overlay-error: rgba(255, 75, 85, 0.3);
+
+  --toastify-toast-width: 320px;
+  --toastify-toast-background: #fff;
+  --toastify-toast-min-height: 64px;
+  --toastify-toast-max-height: 800px;
+  --toastify-font-family: sans-serif;
+  --toastify-z-index: 9999;
+
+  --toastify-text-color-light: #757575;
+  --toastify-text-color-dark: #fff;
+
+  --toastify-spinner-color: #616161;
+  --toastify-spinner-color-empty-area: #e0e0e0;
+}

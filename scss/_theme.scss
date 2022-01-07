@@ -1,0 +1,40 @@
+@import "utils/positioning";
+@import "variables";
+
+.#{$rt-namespace}__toast {
+  &-theme--dark {
+    background: var(--toastify-color-dark);
+    color: var(--toastify-text-color-dark);
+  }
+
+  &-theme--dark__gradient-overlay-default {
+    @include fill-absolute;
+    background: linear-gradient(to right, var(--toastify-color-dark-overlay-default), transparent);
+  }
+
+  &-theme--dark__gradient-overlay-info {
+    @include fill-absolute;
+    background: linear-gradient(to right, var(--toastify-color-dark-overlay-info), transparent);
+  }
+
+  &-theme--dark__gradient-overlay-success {
+    @include fill-absolute;
+    background: linear-gradient(to right, var(--toastify-color-dark-overlay-success), transparent);
+  }
+
+  &-theme--dark__gradient-overlay-error {
+    @include fill-absolute;
+    background: linear-gradient(to right, var(--toastify-color-dark-overlay-error), transparent);
+  }
+
+  &-theme--dark__gradient-overlay-warning {
+    @include fill-absolute;
+    background: linear-gradient(to right, var(--toastify-color-dark-overlay-warning), transparent);
+  }
+
+  &-theme--light {
+    background: var(--toastify-color-light);
+    color: var(--toastify-text-color-light);
+  }
+}
+
